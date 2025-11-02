@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 💼 Tria Contact List
 
 A modern, elegant, and responsive **React + Tailwind CSS** contact management app built for the **Tria Frontend Assignment**.  
@@ -81,6 +82,9 @@ npm run dev
 --- 
 Open http://localhost:5173
 in your browser.
+=======
+# tria-contact-list
+>>>>>>> b618c2e543b2577b398713a5f41740713593f0b3
 =======
 # tria-contact-list
 >>>>>>> b618c2e543b2577b398713a5f41740713593f0b3
