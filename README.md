@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # 💼 Tria Contact List
 
 A modern, elegant, and responsive **React + Tailwind CSS** contact management app built for the **Tria Frontend Assignment**.  
