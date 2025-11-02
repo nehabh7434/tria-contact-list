@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --glass: rgba(255, 255, 255, 0.6);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-gradient-to-tr from-surface via-white to-surface min-h-screen font-sans;
+}
+
+.card-shadow {
+  box-shadow: 0 10px 30px rgba(13, 20, 28, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+/* 🌙 Dark Mode Styling */
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+.dark .card-shadow {
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.08),
+    inset 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dark input {
+  @apply bg-gray-800 border-gray-700 text-gray-200 placeholder-gray-400;
+}
+
+.dark button {
+  @apply transition-colors;
+}
+
+.dark h1,
+.dark h3 {
+  @apply text-white;
+}
